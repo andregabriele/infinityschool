@@ -1,8 +1,6 @@
-# Lista de tarefas (global)
 tarefas = []
 proximo_id = 1
 
-# Prioridades válidas
 prioridades_validas = {
     1: "muito alta",
     2: "alta",
@@ -204,7 +202,8 @@ def menu():
     else:
         print("Opção inválida. Tente novamente.")
 
-    menu()  # chamada recursiva
+    menu() 
 
 if __name__ == "__main__":
     menu()
+
